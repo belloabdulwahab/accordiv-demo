@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101d35" />
+    <meta
+      name="description"
+      content="Manage clients, projects, invoices and recorded payments in one workspace. Explore Accordiv’s temporary demo, invoice PDFs and business settings."
+    />
+    <title>Accordiv · Clients, projects and invoices in one workspace</title>
+  </head>
+  <body>
+    <!-- Netlify detects this static definition before React runs. Keep its name, fields and honeypot in sync with SalesEnquiry. -->
+    <form id="netlify-enquiry-definition" name="accordiv-enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="accordiv-enquiry" />
+      <input name="name" type="text" />
+      <input name="email" type="email" />
+      <input name="phone" type="tel" />
+      <input name="business" type="text" />
+      <select name="service"><option value=""></option></select>
+      <textarea name="message"></textarea>
+      <textarea name="integrations"></textarea>
+      <input name="budget" type="text" />
+      <input name="bot-field" type="text" />
+    </form>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

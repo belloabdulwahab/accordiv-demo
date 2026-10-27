@@ -1,0 +1,6 @@
+# Publish only the generated frontend; owner services and private configuration are not part of this project.
+[build]
+  command = "npm run build"
+  publish = "dist"
+[build.environment]
+  NODE_VERSION = "22"

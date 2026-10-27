@@ -1,0 +1,148 @@
+.billing-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-bottom: 1.25rem;
+}
+.billing-detail {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.billing-detail h2,
+.billing-section-title {
+  font-size: 1rem;
+  margin: 1.5rem 0 0.8rem;
+}
+.billing-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.billing-columns > * {
+  min-width: 0;
+}
+.billing-dates {
+  margin-top: 1.5rem;
+  overflow-wrap: anywhere;
+}
+.billing-dates dt {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.billing-dates dd {
+  margin-bottom: 1rem;
+}
+.billing-totals {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.75rem 1rem;
+  margin: 1.5rem 0;
+}
+.billing-totals dd {
+  margin: 0;
+  text-align: right;
+}
+.billing-filter-note {
+  padding: 0 1.5rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.preserve-text {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.invoice-line-editor {
+  border: 1px solid var(--border-color, #dce3ed);
+  border-radius: 0.7rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  min-width: 0;
+}
+.invoice-line-editor legend {
+  float: none;
+  width: auto;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0 0.4rem;
+}
+.invoice-line-editor .form-field:first-child {
+  grid-column: 1 / -1;
+}
+.invoice-line-editor .app-button {
+  margin-top: 1rem;
+}
+.billing-total {
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem;
+  overflow-wrap: anywhere;
+}
+.status-unpaid,
+.status-issued {
+  background: #edf2ff;
+  color: #254caf;
+}
+.status-active {
+  background: #e8f6ee;
+  color: #216540;
+}
+.status-voided {
+  background: #f1f2f5;
+  color: #535968;
+}
+.invoice-statuses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.invoice-items-table {
+  table-layout: fixed;
+  min-width: 680px;
+}
+.invoice-items-table th:first-child {
+  width: 44%;
+}
+.invoice-items-table th:nth-child(2) {
+  width: 10%;
+}
+.invoice-items-table th:nth-child(3),
+.invoice-items-table th:nth-child(4) {
+  width: 23%;
+}
+.invoice-items-table td {
+  vertical-align: top;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.invoice-items-table td:first-child {
+  white-space: pre-wrap;
+}
+.invoice-table .invoice-client-name,
+.invoice-table .invoice-number-link,
+.payments-table td:nth-child(2),
+.payments-table td:nth-child(3) {
+  max-width: 230px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.invoice-number-link {
+  display: inline-block;
+}
+@media (max-width: 575px) {
+  .billing-columns {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .billing-detail {
+    padding: 1rem;
+  }
+  .billing-totals {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+  .billing-totals dd {
+    text-align: left;
+    margin-bottom: 0.75rem;
+  }
+}
