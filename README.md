@@ -1,5 +1,7 @@
 # Accordiv landing and demo
 
+Public source: [belloabdulwahab/accordiv-demo](https://github.com/belloabdulwahab/accordiv-demo) - branch **main**. GitHub publication completed on 27 October 2026. **Netlify is not connected and this repository has not been deployed.**
+
 Generated from the authoritative private Accordiv source. Make changes upstream and rerun its `npm run export:demo`; direct edits to generated files are refused on the next export. This repository has no owner authentication, API, PHP or database. Owner Account is visibly unavailable; the independent demo uses fictional per-tab sessionStorage, migration of existing demo keys and Reset Demo. PDFs are labelled demonstrations. No payment or invoice email is sent.
 
 Requires Node 22.12+ (Netlify uses Node 22) and npm:
@@ -22,4 +24,10 @@ Use `npm run build`, publish `dist`, Node 22 as specified in netlify.toml. Enabl
 
 See [Netlify form setup](https://docs.netlify.com/manage/forms/setup/), [spam filters](https://docs.netlify.com/manage/forms/spam-filters/) and [notifications](https://docs.netlify.com/manage/forms/notifications/).
 
-The full application remains private. Full owner hosting on Truehost is deferred; hosted multi-business accounts are future V2 work. This generated project is intended for a future public `accordiv-demo` repository; no remote or deployment is created by export.
+The full application remains private. Full owner hosting on Truehost is deferred; hosted multi-business accounts are future V2 work. This public source is generated upstream; export does not commit, push or deploy it. Personal notes, backend/owner modules, private configuration and database data are excluded. Byte-preserving Git attributes keep generated files consistent with the export manifest.
+
+## Verified source and next connection settings
+
+61 serial tests, lint and production build passed. A fresh one-worker Chrome run passed 58 checks with zero API requests, including unavailable owner navigation/direct URLs, demo workflows, matching form fields/honeypot and a demo PDF. Real Netlify form/email/Reply-To delivery remains unverified; local test responses were intercepted, not live enquiries.
+
+When a Netlify connection is separately authorized, select this repository and production branch main. Leave base/package directories blank (repository root), use npm run build, publish dist and Node 22. No private environment variables, PHP or database are required. Enable Forms detection and configure the email notification described above, then verify delivery after deployment. No GitHub Pages, software license, package publication or deployment workflow was added here.
