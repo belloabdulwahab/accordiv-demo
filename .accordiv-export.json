@@ -2,7 +2,7 @@
   "generator": "accordiv-demo/v1",
   "files": {
     ".gitattributes": "5c71bbc98fdc0c0ab68bf012eede736a9e5638daa9f3d09449b0cd9be079cd1e",
-    ".gitignore": "8e15922c47c73bf2f27ebecf8b9efbc88c5c18a4b66fb0a31d65b354b31911ef",
+    ".gitignore": "064cb80c36b17064c4e6b95b1cc18e696568252b6bf576e13486f27a4cecae17",
     ".nvmrc": "f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56",
     "eslint.config.js": "b8e051a9e5dcd1eee0c466fc5b5df80b0e11270a345343da0a64333e877eb2b2",
     "index.html": "cae5148ddd8b92c4e508051882f5565dd1c94bd0db7bcd3a1db3148771fb6639",
@@ -10,7 +10,7 @@
     "package-lock.json": "7b79276fa40aad4d1ca7f8a98126ea5d91b207eb476de323b47a6e4aa5294ca8",
     "package.json": "de5491084e3a0dd20206db76157a2e9f48b1170ca8d04591cb28edf301e8c6a5",
     "public/favicon.svg": "36332444870940dafd70ac6b6c25e09474b07f00d7668ce9117a1cc10beffb9d",
-    "README.md": "fa82e1b73d8057bf85c5b55af7691e6b1728d8874cf3f7b16fe786015dbf9ab9",
+    "README.md": "d59ee049a0716ac034a8c516757177fd16814c3269a13558e474df2528c48be2",
     "src/App.jsx": "eaa6dd86fb8f26dc978ceb13f43948e88b83b5df75bf99bdf389714656b3535e",
     "src/assets/accordiv-logo-light.svg": "32dd9df1a7a5b58063d651e08a2b8ecb433a4cdad908bbe408bd25e3a358938e",
     "src/assets/accordiv-logo.svg": "1a37aceaa97a4bafed594db7ecdbca26c5164038b9e412fdf56fd22b74e2a533",

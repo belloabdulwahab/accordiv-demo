@@ -30,6 +30,7 @@ backend/
 *.dmp
 AGENTS.md
 PROJECT_PLAN.md
+PROJECT_GUIDE.md
 prompt.txt
 docs/EXPORT.md
 docs/RECOVERY.md
